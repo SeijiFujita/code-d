@@ -15,11 +15,11 @@ Also [available for Atom](https://github.com/Vild/atomize-d)!
 
 ### Dependencies:
 
-code-d will install [workspace-d](https://github.com/Pure-D/workspace-d),
-[dcd](https://github.com/Hackerpilot/DCD), [dfmt](https://github.com/Hackerpilot/dfmt),
-[dscanner](https://github.com/Hackerpilot/Dscanner) if they are not already installed.
+Code-d needs its backend, [workspace-d](https://github.com/Pure-D/workspace-d). Go there and follow the installation instructions.
+Installing it will automatically detect or install the necessary D tools 
+([dcd](https://github.com/Hackerpilot/DCD), [dfmt](https://github.com/Hackerpilot/dfmt), [dscanner](https://github.com/Hackerpilot/Dscanner)).
 
-### code-d installation
+### Code-d installation
 
 This assumes [workspace-d](https://github.com/Pure-D/workspace-d) is already installed.
 
@@ -37,7 +37,7 @@ This assumes [workspace-d](https://github.com/Pure-D/workspace-d) is already ins
     git clone https://github.com/Pure-D/code-d.git
     cd code-d
     npm install
-    tsc -p .
+    node ./node_modules/vscode/bin/compile
     ```
 
 ## License
